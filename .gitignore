@@ -1,0 +1,6 @@
+wandb
+results
+finetuned models
+.env
+.venv
+.idea

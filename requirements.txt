@@ -1,0 +1,14 @@
+numpy
+langchain
+transformers
+#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+langchain-huggingface
+dotenv
+accelerate
+datasets
+huggingface_hub
+bitsandbytes
+peft
+trl
+evaluate
+wandb
