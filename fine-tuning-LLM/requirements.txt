@@ -1,7 +1,7 @@
 numpy
 langchain
 transformers
-#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 langchain-huggingface
 dotenv
 accelerate
@@ -12,3 +12,4 @@ peft
 trl
 evaluate
 wandb
+unsloth
