@@ -1,3 +1,4 @@
 # Python example
-def hello():
-    return 'hello'
+class Car(Vehicle):
+    def value(self) -> float:
+        return calculate_value()

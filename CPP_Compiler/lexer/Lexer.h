@@ -4,14 +4,21 @@
 #include <vector>
 #include <regex>
 
-// Full definitions need to be in header
 enum class TokenType {
-    Keyword,
-    Identifier,
-    Literal,
-    Punctuation,
+    class_definition,
+    class_name,
+    function_definition,
+    function_name,
+    Colon,
+    open_parenthesis,
+    close_parenthesis,
+    parent_class,
+    return_type_operator,
+    type_name,
+    Comma,
     Comment,
-    Error
+    Error,
+    Eof
 };
 
 struct Token {
@@ -20,10 +27,18 @@ struct Token {
     size_t position;
 };
 
+enum class State {
+    Default,
+    ExpectClassName,
+    ExpectParentClass,
+    ExpectReturnType
+};
+
 class Lexer {
 private:
     std::string sourceCode;
     size_t position;
+    State currentState = State::Default;
     std::vector<std::pair<std::regex, TokenType>> regexPatterns;
 
     void skipWhitespace();
@@ -32,6 +47,7 @@ private:
 public:
     explicit Lexer(const std::string& source);
     Token getNextToken();
+    std::vector<Token> getAllTokens();
 };
 
 #endif // LEXER_H
