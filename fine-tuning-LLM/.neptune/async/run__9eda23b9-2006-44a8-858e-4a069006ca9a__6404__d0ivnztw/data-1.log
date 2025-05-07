@@ -1,0 +1,119 @@
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 1, "at": 1746597395.3390057}
+{"obj": {"type": "AssignString", "path": ["monitoring", "dbe9aeaa", "hostname"], "value": "DESKTOP-J3804G0"}, "version": 2, "at": 1746597395.3390057}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "DESKTOP-J3804G0"}, "version": 3, "at": 1746597395.3402104}
+{"obj": {"type": "AssignString", "path": ["monitoring", "dbe9aeaa", "pid"], "value": "6404"}, "version": 4, "at": 1746597395.3402104}
+{"obj": {"type": "AssignString", "path": ["monitoring", "dbe9aeaa", "tid"], "value": "9532"}, "version": 5, "at": 1746597395.3402104}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 6, "at": 1746597395.3402104}
+{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "neptune-optuna"], "value": "1.4.1"}, "version": 7, "at": 1746597396.3295965}
+{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "neptune-optuna"], "value": "1.4.1"}, "version": 8, "at": 1746598195.090371}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_loss"], "value": 3.7885115146636963}, "version": 9, "at": 1746598469.8195581}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_runtime"], "value": 176.8957}, "version": 10, "at": 1746598469.8195581}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_samples_per_second"], "value": 67.119}, "version": 11, "at": 1746598469.82056}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_steps_per_second"], "value": 8.395}, "version": 12, "at": 1746598469.82056}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "params", "learning_rate"], "value": 1.9844165603142522e-05}, "version": 13, "at": 1746598469.82056}
+{"obj": {"type": "AssignInt", "path": ["trial", "0", "params", "batch_size"], "value": 8}, "version": 14, "at": 1746598469.82056}
+{"obj": {"type": "AssignInt", "path": ["trial", "0", "params", "num_epochs"], "value": 2}, "version": 15, "at": 1746598469.82056}
+{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "neptune-optuna"], "value": "1.4.1"}, "version": 16, "at": 1746598778.105154}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_loss"], "value": 3.7651116847991943}, "version": 17, "at": 1746599034.7099018}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_runtime"], "value": 166.3061}, "version": 18, "at": 1746599034.7099018}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_samples_per_second"], "value": 71.392}, "version": 19, "at": 1746599034.7099018}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "metrics", "eval_steps_per_second"], "value": 8.929}, "version": 20, "at": 1746599034.7099018}
+{"obj": {"type": "AssignFloat", "path": ["trial", "0", "params", "learning_rate"], "value": 0.00016141790805699685}, "version": 21, "at": 1746599034.7099018}
+{"obj": {"type": "AssignInt", "path": ["trial", "0", "params", "batch_size"], "value": 8}, "version": 22, "at": 1746599034.7099018}
+{"obj": {"type": "AssignInt", "path": ["trial", "0", "params", "num_epochs"], "value": 2}, "version": 23, "at": 1746599034.7099018}
+{"obj": {"type": "AssignDatetime", "path": ["trials", "trials", "0", "datetime_start"], "value": 1746598778108}, "version": 24, "at": 1746599035.6668255}
+{"obj": {"type": "AssignDatetime", "path": ["trials", "trials", "0", "datetime_complete"], "value": 1746599035661}, "version": 25, "at": 1746599035.6668255}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "0", "duration"], "value": "0:04:17.553144"}, "version": 26, "at": 1746599035.6668255}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "0", "distributions", "learning_rate"], "value": "FloatDistribution(high=0.0005, log=True, low=1e-05, step=None)"}, "version": 27, "at": 1746599035.6678276}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "0", "distributions", "per_device_train_batch_size"], "value": "CategoricalDistribution(choices=(2, 4, 8))"}, "version": 28, "at": 1746599035.6678276}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "0", "distributions", "num_train_epochs"], "value": "IntDistribution(high=3, log=False, low=1, step=1)"}, "version": 29, "at": 1746599035.6688259}
+{"obj": {"type": "AssignFloat", "path": ["trials", "trials", "0", "params", "learning_rate"], "value": 0.00016141790805699685}, "version": 30, "at": 1746599035.6688259}
+{"obj": {"type": "AssignInt", "path": ["trials", "trials", "0", "params", "per_device_train_batch_size"], "value": 8}, "version": 31, "at": 1746599035.6688259}
+{"obj": {"type": "AssignInt", "path": ["trials", "trials", "0", "params", "num_train_epochs"], "value": 2}, "version": 32, "at": 1746599035.6688259}
+{"obj": {"type": "AssignFloat", "path": ["trials", "trials", "0", "value"], "value": 3.7651116847991943}, "version": 33, "at": 1746599035.6688259}
+{"obj": {"type": "LogFloats", "path": ["trials", "values"], "values": [{"value": 3.7651116847991943, "step": 0, "ts": 1746599035.6698337}]}, "version": 34, "at": 1746599035.6698337}
+{"obj": {"type": "LogFloats", "path": ["trials", "params", "learning_rate"], "values": [{"value": 0.00016141790805699685, "step": null, "ts": 1746599035.6698337}]}, "version": 35, "at": 1746599035.6698337}
+{"obj": {"type": "LogFloats", "path": ["trials", "params", "per_device_train_batch_size"], "values": [{"value": 8.0, "step": null, "ts": 1746599035.6698337}]}, "version": 36, "at": 1746599035.6698337}
+{"obj": {"type": "LogFloats", "path": ["trials", "params", "num_train_epochs"], "values": [{"value": 2.0, "step": null, "ts": 1746599035.6698337}]}, "version": 37, "at": 1746599035.6698337}
+{"obj": {"type": "LogStrings", "path": ["trials", "values|params"], "values": [{"value": "value: 3.7651116847991943| params: {'learning_rate': 0.00016141790805699685, 'per_device_train_batch_size': 8, 'num_train_epochs': 2}", "step": null, "ts": 1746599035.6698337}]}, "version": 38, "at": 1746599035.6698337}
+{"obj": {"type": "AssignString", "path": ["study", "distributions", "learning_rate"], "value": "FloatDistribution(high=0.0005, log=True, low=1e-05, step=None)"}, "version": 39, "at": 1746599035.6698337}
+{"obj": {"type": "AssignString", "path": ["study", "distributions", "per_device_train_batch_size"], "value": "CategoricalDistribution(choices=(2, 4, 8))"}, "version": 40, "at": 1746599035.6698337}
+{"obj": {"type": "AssignString", "path": ["study", "distributions", "num_train_epochs"], "value": "IntDistribution(high=3, log=False, low=1, step=1)"}, "version": 41, "at": 1746599035.6698337}
+{"obj": {"type": "AssignDatetime", "path": ["best", "trials", "0", "datetime_start"], "value": 1746598778108}, "version": 42, "at": 1746599035.6698337}
+{"obj": {"type": "AssignDatetime", "path": ["best", "trials", "0", "datetime_complete"], "value": 1746599035661}, "version": 43, "at": 1746599035.6698337}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "duration"], "value": "0:04:17.553144"}, "version": 44, "at": 1746599035.6713414}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "distributions", "learning_rate"], "value": "FloatDistribution(high=0.0005, log=True, low=1e-05, step=None)"}, "version": 45, "at": 1746599035.6713414}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "distributions", "per_device_train_batch_size"], "value": "CategoricalDistribution(choices=(2, 4, 8))"}, "version": 46, "at": 1746599035.6713414}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "distributions", "num_train_epochs"], "value": "IntDistribution(high=3, log=False, low=1, step=1)"}, "version": 47, "at": 1746599035.6713414}
+{"obj": {"type": "AssignFloat", "path": ["best", "trials", "0", "params", "learning_rate"], "value": 0.00016141790805699685}, "version": 48, "at": 1746599035.6713414}
+{"obj": {"type": "AssignInt", "path": ["best", "trials", "0", "params", "per_device_train_batch_size"], "value": 8}, "version": 49, "at": 1746599035.6713414}
+{"obj": {"type": "AssignInt", "path": ["best", "trials", "0", "params", "num_train_epochs"], "value": 2}, "version": 50, "at": 1746599035.6713414}
+{"obj": {"type": "AssignFloat", "path": ["best", "trials", "0", "value"], "value": 3.7651116847991943}, "version": 51, "at": 1746599035.6713414}
+{"obj": {"type": "AssignFloat", "path": ["best", "value"], "value": 3.7651116847991943}, "version": 52, "at": 1746599035.6713414}
+{"obj": {"type": "AssignFloat", "path": ["best", "params", "learning_rate"], "value": 0.00016141790805699685}, "version": 53, "at": 1746599035.6713414}
+{"obj": {"type": "AssignInt", "path": ["best", "params", "per_device_train_batch_size"], "value": 8}, "version": 54, "at": 1746599035.6713414}
+{"obj": {"type": "AssignInt", "path": ["best", "params", "num_train_epochs"], "value": 2}, "version": 55, "at": 1746599035.6713414}
+{"obj": {"type": "AssignString", "path": ["best", "value|params"], "value": "value: 3.7651116847991943| params: {'learning_rate': 0.00016141790805699685, 'per_device_train_batch_size': 8, 'num_train_epochs': 2}"}, "version": 56, "at": 1746599035.6713414}
+{"obj": {"type": "AssignString", "path": ["study", "study_name"], "value": "no-name-de9bbc50-303b-4b3d-a0a9-88bb442e0ddf"}, "version": 57, "at": 1746599035.6713414}
+{"obj": {"type": "AssignInt", "path": ["study", "direction"], "value": 1}, "version": 58, "at": 1746599035.6713414}
+{"obj": {"type": "AssignInt", "path": ["study", "_study_id"], "value": 0}, "version": 59, "at": 1746599035.6728504}
+{"obj": {"type": "AssignString", "path": ["study", "_storage"], "value": "<optuna.storages._in_memory.InMemoryStorage object at 0x0000022F537816A0>"}, "version": 60, "at": 1746599035.6728504}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_contour"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_contour-1746599037.7115-2025-05-07_00.23.57.711500.html", "clean_after_upload": false}, "version": 61, "at": 1746599037.7138033}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_edf"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_edf-1746599037.745832-2025-05-07_00.23.57.745832.html", "clean_after_upload": false}, "version": 62, "at": 1746599037.7488282}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_parallel_coordinate"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_parallel_coordinate-1746599037.814208-2025-05-07_00.23.57.814208.html", "clean_after_upload": false}, "version": 63, "at": 1746599037.8152401}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_slice"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_slice-1746599037.89994-2025-05-07_00.23.57.899940.html", "clean_after_upload": false}, "version": 64, "at": 1746599037.9024823}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_optimization_history"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_optimization_history-1746599037.9278-2025-05-07_00.23.57.927800.html", "clean_after_upload": false}, "version": 65, "at": 1746599037.930006}
+{"obj": {"type": "AssignString", "path": ["study", "study_name"], "value": "no-name-de9bbc50-303b-4b3d-a0a9-88bb442e0ddf"}, "version": 66, "at": 1746599037.930006}
+{"obj": {"type": "AssignString", "path": ["study", "storage_type"], "value": "InMemoryStorage"}, "version": 67, "at": 1746599037.930006}
+{"obj": {"type": "UploadFile", "path": ["study", "study"], "ext": "pkl", "file_path": null, "tmp_file_name": "study_study-1746599037.931039-2025-05-07_00.23.57.931039.pkl", "clean_after_upload": false}, "version": 68, "at": 1746599037.9320378}
+{"obj": {"type": "AssignFloat", "path": ["trial", "1", "metrics", "eval_loss"], "value": 3.8867905139923096}, "version": 69, "at": 1746599298.5405366}
+{"obj": {"type": "AssignFloat", "path": ["trial", "1", "metrics", "eval_runtime"], "value": 170.8949}, "version": 70, "at": 1746599298.5405366}
+{"obj": {"type": "AssignFloat", "path": ["trial", "1", "metrics", "eval_samples_per_second"], "value": 69.475}, "version": 71, "at": 1746599298.5405366}
+{"obj": {"type": "AssignFloat", "path": ["trial", "1", "metrics", "eval_steps_per_second"], "value": 8.69}, "version": 72, "at": 1746599298.5405366}
+{"obj": {"type": "AssignFloat", "path": ["trial", "1", "params", "learning_rate"], "value": 3.076253534958946e-05}, "version": 73, "at": 1746599298.5405366}
+{"obj": {"type": "AssignInt", "path": ["trial", "1", "params", "batch_size"], "value": 4}, "version": 74, "at": 1746599298.54154}
+{"obj": {"type": "AssignInt", "path": ["trial", "1", "params", "num_epochs"], "value": 2}, "version": 75, "at": 1746599298.54154}
+{"obj": {"type": "AssignDatetime", "path": ["trials", "trials", "1", "datetime_start"], "value": 1746599037934}, "version": 76, "at": 1746599299.9083443}
+{"obj": {"type": "AssignDatetime", "path": ["trials", "trials", "1", "datetime_complete"], "value": 1746599299901}, "version": 77, "at": 1746599299.9083443}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "1", "duration"], "value": "0:04:21.967040"}, "version": 78, "at": 1746599299.9083443}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "1", "distributions", "learning_rate"], "value": "FloatDistribution(high=0.0005, log=True, low=1e-05, step=None)"}, "version": 79, "at": 1746599299.909854}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "1", "distributions", "per_device_train_batch_size"], "value": "CategoricalDistribution(choices=(2, 4, 8))"}, "version": 80, "at": 1746599299.909854}
+{"obj": {"type": "AssignString", "path": ["trials", "trials", "1", "distributions", "num_train_epochs"], "value": "IntDistribution(high=3, log=False, low=1, step=1)"}, "version": 81, "at": 1746599299.910609}
+{"obj": {"type": "AssignFloat", "path": ["trials", "trials", "1", "params", "learning_rate"], "value": 3.076253534958946e-05}, "version": 82, "at": 1746599299.910609}
+{"obj": {"type": "AssignInt", "path": ["trials", "trials", "1", "params", "per_device_train_batch_size"], "value": 4}, "version": 83, "at": 1746599299.9111173}
+{"obj": {"type": "AssignInt", "path": ["trials", "trials", "1", "params", "num_train_epochs"], "value": 2}, "version": 84, "at": 1746599299.9111173}
+{"obj": {"type": "AssignFloat", "path": ["trials", "trials", "1", "value"], "value": 3.8867905139923096}, "version": 85, "at": 1746599299.9111173}
+{"obj": {"type": "LogFloats", "path": ["trials", "values"], "values": [{"value": 3.8867905139923096, "step": 1, "ts": 1746599299.9111173}]}, "version": 86, "at": 1746599299.9121249}
+{"obj": {"type": "LogFloats", "path": ["trials", "params", "learning_rate"], "values": [{"value": 3.076253534958946e-05, "step": null, "ts": 1746599299.9121249}]}, "version": 87, "at": 1746599299.9121249}
+{"obj": {"type": "LogFloats", "path": ["trials", "params", "per_device_train_batch_size"], "values": [{"value": 4.0, "step": null, "ts": 1746599299.9121249}]}, "version": 88, "at": 1746599299.9121249}
+{"obj": {"type": "LogFloats", "path": ["trials", "params", "num_train_epochs"], "values": [{"value": 2.0, "step": null, "ts": 1746599299.9121249}]}, "version": 89, "at": 1746599299.9121249}
+{"obj": {"type": "LogStrings", "path": ["trials", "values|params"], "values": [{"value": "value: 3.8867905139923096| params: {'learning_rate': 3.076253534958946e-05, 'per_device_train_batch_size': 4, 'num_train_epochs': 2}", "step": null, "ts": 1746599299.9121249}]}, "version": 90, "at": 1746599299.9121249}
+{"obj": {"type": "AssignString", "path": ["study", "distributions", "learning_rate"], "value": "FloatDistribution(high=0.0005, log=True, low=1e-05, step=None)"}, "version": 91, "at": 1746599299.9131281}
+{"obj": {"type": "AssignString", "path": ["study", "distributions", "per_device_train_batch_size"], "value": "CategoricalDistribution(choices=(2, 4, 8))"}, "version": 92, "at": 1746599299.9131281}
+{"obj": {"type": "AssignString", "path": ["study", "distributions", "num_train_epochs"], "value": "IntDistribution(high=3, log=False, low=1, step=1)"}, "version": 93, "at": 1746599299.9131281}
+{"obj": {"type": "AssignDatetime", "path": ["best", "trials", "0", "datetime_start"], "value": 1746598778108}, "version": 94, "at": 1746599299.9131281}
+{"obj": {"type": "AssignDatetime", "path": ["best", "trials", "0", "datetime_complete"], "value": 1746599035661}, "version": 95, "at": 1746599299.9131281}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "duration"], "value": "0:04:17.553144"}, "version": 96, "at": 1746599299.9131281}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "distributions", "learning_rate"], "value": "FloatDistribution(high=0.0005, log=True, low=1e-05, step=None)"}, "version": 97, "at": 1746599299.9131281}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "distributions", "per_device_train_batch_size"], "value": "CategoricalDistribution(choices=(2, 4, 8))"}, "version": 98, "at": 1746599299.914128}
+{"obj": {"type": "AssignString", "path": ["best", "trials", "0", "distributions", "num_train_epochs"], "value": "IntDistribution(high=3, log=False, low=1, step=1)"}, "version": 99, "at": 1746599299.914128}
+{"obj": {"type": "AssignFloat", "path": ["best", "trials", "0", "params", "learning_rate"], "value": 0.00016141790805699685}, "version": 100, "at": 1746599299.914128}
+{"obj": {"type": "AssignInt", "path": ["best", "trials", "0", "params", "per_device_train_batch_size"], "value": 8}, "version": 101, "at": 1746599299.914128}
+{"obj": {"type": "AssignInt", "path": ["best", "trials", "0", "params", "num_train_epochs"], "value": 2}, "version": 102, "at": 1746599299.914128}
+{"obj": {"type": "AssignFloat", "path": ["best", "trials", "0", "value"], "value": 3.7651116847991943}, "version": 103, "at": 1746599299.914128}
+{"obj": {"type": "AssignFloat", "path": ["best", "value"], "value": 3.7651116847991943}, "version": 104, "at": 1746599299.914128}
+{"obj": {"type": "AssignFloat", "path": ["best", "params", "learning_rate"], "value": 0.00016141790805699685}, "version": 105, "at": 1746599299.914128}
+{"obj": {"type": "AssignInt", "path": ["best", "params", "per_device_train_batch_size"], "value": 8}, "version": 106, "at": 1746599299.914128}
+{"obj": {"type": "AssignInt", "path": ["best", "params", "num_train_epochs"], "value": 2}, "version": 107, "at": 1746599299.914128}
+{"obj": {"type": "AssignString", "path": ["best", "value|params"], "value": "value: 3.7651116847991943| params: {'learning_rate': 0.00016141790805699685, 'per_device_train_batch_size': 8, 'num_train_epochs': 2}"}, "version": 108, "at": 1746599299.914128}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_contour"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_contour-1746599300.107685-2025-05-07_00.28.20.107685.html", "clean_after_upload": false}, "version": 109, "at": 1746599300.113208}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_edf"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_edf-1746599300.1505-2025-05-07_00.28.20.150500.html", "clean_after_upload": false}, "version": 110, "at": 1746599300.1535103}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_parallel_coordinate"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_parallel_coordinate-1746599300.187953-2025-05-07_00.28.20.187953.html", "clean_after_upload": false}, "version": 111, "at": 1746599300.1904583}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_param_importances"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_param_importances-1746599300.346865-2025-05-07_00.28.20.346865.html", "clean_after_upload": false}, "version": 112, "at": 1746599300.3488753}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_slice"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_slice-1746599300.401326-2025-05-07_00.28.20.401326.html", "clean_after_upload": false}, "version": 113, "at": 1746599300.403325}
+{"obj": {"type": "UploadFile", "path": ["visualizations", "plot_optimization_history"], "ext": "html", "file_path": null, "tmp_file_name": "visualizations_plot_optimization_history-1746599300.428872-2025-05-07_00.28.20.428872.html", "clean_after_upload": false}, "version": 114, "at": 1746599300.4303775}
+{"obj": {"type": "AssignString", "path": ["study", "study_name"], "value": "no-name-de9bbc50-303b-4b3d-a0a9-88bb442e0ddf"}, "version": 115, "at": 1746599300.431387}
+{"obj": {"type": "AssignString", "path": ["study", "storage_type"], "value": "InMemoryStorage"}, "version": 116, "at": 1746599300.431387}
+{"obj": {"type": "UploadFile", "path": ["study", "study"], "ext": "pkl", "file_path": null, "tmp_file_name": "study_study-1746599300.431386-2025-05-07_00.28.20.431386.pkl", "clean_after_upload": false}, "version": 117, "at": 1746599300.431387}
+{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "neptune-optuna"], "value": "1.4.1"}, "version": 118, "at": 1746599345.8321753}
+{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "neptune-optuna"], "value": "1.4.1"}, "version": 119, "at": 1746599816.0399623}

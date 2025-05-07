@@ -13,3 +13,5 @@ trl
 evaluate
 wandb
 unsloth
+neptune
+neptune-optuna
