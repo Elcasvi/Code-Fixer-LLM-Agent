@@ -1,8 +1,0 @@
-{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 1, "at": 1746595837.4546468}
-{"obj": {"type": "AssignString", "path": ["monitoring", "87cca18d", "hostname"], "value": "DESKTOP-J3804G0"}, "version": 2, "at": 1746595837.4546468}
-{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "DESKTOP-J3804G0"}, "version": 3, "at": 1746595837.4546468}
-{"obj": {"type": "AssignString", "path": ["monitoring", "87cca18d", "pid"], "value": "10404"}, "version": 4, "at": 1746595837.4546468}
-{"obj": {"type": "AssignString", "path": ["monitoring", "87cca18d", "tid"], "value": "17168"}, "version": 5, "at": 1746595837.4546468}
-{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 6, "at": 1746595837.455645}
-{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "neptune-optuna"], "value": "1.4.1"}, "version": 7, "at": 1746595861.5017183}
-{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "neptune-optuna"], "value": "1.4.1"}, "version": 8, "at": 1746595924.3941298}
