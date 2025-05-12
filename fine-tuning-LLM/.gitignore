@@ -5,4 +5,5 @@ finetuned models
 .venv
 .idea
 .neptune
-dataset
+dataset/tssb_data_3M
+dataset/merged_tssb_dataset.jsonl
