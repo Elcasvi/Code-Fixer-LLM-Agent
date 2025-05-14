@@ -16,3 +16,6 @@ unsloth
 neptune
 neptune-optuna
 rouge_score
+jupyter
+notebook
+ipykernel

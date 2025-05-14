@@ -1,0 +1,9 @@
+wandb
+results
+finetuned models
+.env
+.venv
+.idea
+.neptune
+dataset/tssb_data_3M
+dataset/merged_tssb_dataset.jsonl
