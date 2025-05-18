@@ -2,28 +2,6 @@
 
 Este proyecto integra herramientas de análisis, compilación y ajuste fino de modelos de lenguaje para la corrección y análisis de código fuente, combinando componentes en C++ y Python, así como notebooks para el fine-tuning de LLMs.
 
-## Estructura del Proyecto
-
-```
-.
-├── CPP_Compiler/
-│   ├── main.cpp
-│   ├── CMakeLists.txt
-│   ├── lexer/
-│   │   ├── Lexer.cpp, Lexer.h, FileReader.cpp, FileReader.h
-│   ├── parser/
-│   │   ├── Parser.cpp, Parser.h
-│   ├── grammar/
-│   │   ├── tok.txt
-│   │   ├── output.txt
-│   │   └── token_mapper.py
-├── fine-tuning-LLM/
-│   ├── fineTunning.ipynb, fine_tuning.ipynb, unsloth-fine-tuning.ipynb, etc.
-│   ├── requirements.txt
-│   └── dataset/
-│       ├── small_datset.jsonl, code_patch_datasets.xlsx, convert_merge_dataset.py
-├── README.md
-```
 
 ## Descripción de Componentes
 
@@ -62,13 +40,4 @@ Instala las dependencias necesarias para el fine-tuning con:
 pip install -r fine-tuning-LLM/requirements.txt
 ```
 
-## Contribución
 
-1. Haz un fork del repositorio.
-2. Crea una rama para tu feature o fix.
-3. Haz tus cambios y realiza commits descriptivos.
-4. Haz pull request a la rama principal.
-
-## Licencia
-
-MIT
