@@ -1,3 +1,6 @@
+jupyterlab
+ipykernel
+ipywidgets
 numpy
 langchain
 transformers
@@ -10,9 +13,13 @@ huggingface_hub
 bitsandbytes
 peft
 trl
+nltk
 evaluate
 wandb
 unsloth
 neptune
 neptune-optuna
 rouge_score
+datasets
+matplotlib
+notebook
