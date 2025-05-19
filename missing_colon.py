@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-def division(a: float, b: float) -> float:
+def division(a, b):
     return a/b
 
 if __name__ == "__main__":
