@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
-
-def division(a: float, b: float) -> float
-    return a/b
-
+def division(a: float, b: float) -> float:
+    if b == 0:
+        raise ValueError("Division by zero is not allowed.")
+    return a / b
 
 if __name__ == "__main__":
-    print(division(23, 0))
+    try:
+        print(division(23, 0))
+    except ValueError as e:
+        print(e)
