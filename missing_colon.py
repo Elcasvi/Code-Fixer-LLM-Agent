@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-def division(a: float, b: float) -> float:
-    return a/b
+def division(a, b):
+    return a / b
 
 if __name__ == "__main__":
     print(division(23, 0))
