@@ -2,7 +2,8 @@ import os
 import json
 
 # Set your parent directory here
-PARENT_DIR = r"/Users/diegopartida/Desktop/TEC/Semestre8/Compu/Code-Fixer-LLM-Agent/fine-tuning-LLM/dataset/tssb_data_3M"
+PARENT_DIR = r"C:\Python\PyProjects\Code-Fixer-LLM-Agent\fine-tuning-LLM\dataset\tssb_data_3M"
+# PARENT_DIR = r"/Users/diegopartida/Desktop/TEC/Semestre8/Compu/Code-Fixer-LLM-Agent/fine-tuning-LLM/dataset/tssb_data_3M"
 OUTPUT_FILE = "merged_tssb_dataset.jsonl"
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as output:
