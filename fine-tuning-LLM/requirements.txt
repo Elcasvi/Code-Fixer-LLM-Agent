@@ -24,3 +24,5 @@ datasets
 matplotlib
 notebook
 langchain_community
+langgraph
+langchain_ollama
