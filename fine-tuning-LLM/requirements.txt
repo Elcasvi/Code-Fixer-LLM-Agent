@@ -6,6 +6,8 @@ ipywidgets
 
 # Core scientific and NLP libraries
 numpy
+absl-py
+rouge_score
 nltk
 matplotlib
 
@@ -28,7 +30,6 @@ langchain-huggingface
 
 # Environment and experiment tracking
 python-dotenv
-wandb
 neptune
 neptune-optuna
 
