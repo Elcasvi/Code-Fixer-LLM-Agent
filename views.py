@@ -5,10 +5,13 @@ from .models import Product
 class ProductDetailView(View):
 
     def get_object(self, pk):
-        return Product.object.get(pk=pk)  # ❌ Error
+        return Product.objects.get(pk=pk)  # ✅ Fixed
 
     def get(self, request, pk):
-        product = self.get_object(pk)
+        try:
+            product = self.get_object(pk)
+        except Product.DoesNotExist:
+            return JsonResponse({'error': 'Product not found'}, status=404)
         if not product.is_in_stock:
             return JsonResponse({'error': 'Out of stock'}, status=404)
         return JsonResponse({
