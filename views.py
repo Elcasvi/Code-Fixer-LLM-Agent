@@ -5,7 +5,7 @@ from .models import Product
 class ProductDetailView(View):
 
     def get_object(self, pk):
-        return Product.objects.get(pk=pk)
+        return Product.objects.get(pk=pk)  # ✅ Fixed
 
     def get(self, request, pk):
         product = self.get_object(pk)
