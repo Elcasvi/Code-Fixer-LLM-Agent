@@ -1,4 +1,3 @@
-wandb
 results
 finetuned models
 .env
@@ -7,3 +6,4 @@ finetuned models
 .neptune
 dataset/tssb_data_3M
 dataset/merged_tssb_dataset.jsonl
+unsloth_compiled_cache

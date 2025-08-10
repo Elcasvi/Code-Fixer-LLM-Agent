@@ -1,18 +1,40 @@
+# Core Jupyter tools
+notebook
+jupyterlab
+ipykernel
+ipywidgets
+
+# Core scientific and NLP libraries
 numpy
-langchain
+absl-py
+rouge_score
+nltk
+matplotlib
+
+# Hugging Face ecosystem
 transformers
-#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-langchain-huggingface
-dotenv
-accelerate
 datasets
 huggingface_hub
-bitsandbytes
-peft
-trl
 evaluate
-wandb
-unsloth
+accelerate
+peft
+bitsandbytes
+trl
+
+# Langchain and ecosystem
+langchain
+langchain_community
+langchain_ollama
+langgraph
+langchain-huggingface
+
+# Environment and experiment tracking
+python-dotenv
 neptune
 neptune-optuna
-rouge_score
+
+# Optional: only include if you're using this specifically
+unsloth
+
+# Torch must be installed separately for specific CUDA version
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
