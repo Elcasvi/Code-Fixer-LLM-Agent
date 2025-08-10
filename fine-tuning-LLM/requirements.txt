@@ -20,6 +20,7 @@ accelerate
 peft
 bitsandbytes
 trl
+unsloth
 
 # Langchain and ecosystem
 langchain
@@ -32,9 +33,6 @@ langchain-huggingface
 python-dotenv
 neptune
 neptune-optuna
-
-# Optional: only include if you're using this specifically
-unsloth
 
 # Torch must be installed separately for specific CUDA version
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126

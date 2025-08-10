@@ -22,7 +22,7 @@ class CodeTestPair(TypedDict):
 class AgentState(TypedDict):
     code_tests: List[Dict[str, str]]
 
-#i
+
 def read_jsonl_node(state: AgentState) -> AgentState:
     print("[Reading] Reading file python_bugs.jsonl ...")
     with open("simple_python_bugs.jsonl", "r") as f:
@@ -52,7 +52,7 @@ from typing import Dict
 
 def lm_call_node(state: Dict) -> Dict:
     print("[Generation] Generation unit test for each code example...")
-    output_path = "unit_tests_output.jsonl"
+    output_path = "unitest_dataset.jsonl"
     code_tests = []
 
     # Abrir el archivo en modo append al inicio

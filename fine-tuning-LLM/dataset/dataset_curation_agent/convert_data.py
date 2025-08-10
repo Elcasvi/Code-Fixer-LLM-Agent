@@ -2,7 +2,7 @@ import json
 
 # Set your input file name here
 INPUT_FILE = "diff_benchmark.json"
-OUTPUT_FILE = "simple_python_bugs.jsonl"
+OUTPUT_FILE = "python_bugs.jsonl"
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as output:
     print(f"Processing: {INPUT_FILE}")
