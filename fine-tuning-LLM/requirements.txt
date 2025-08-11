@@ -1,38 +1,37 @@
 # Core Jupyter tools
-notebook
-jupyterlab
-ipykernel
-ipywidgets
+notebook==7.4.2
+ipykernel==6.29.5
+ipywidgets==8.1.7
 
 # Core scientific and NLP libraries
-numpy
-absl-py
-rouge_score
-nltk
-matplotlib
+numpy==2.2.5
+absl-py==2.1.0
+rouge_score==0.1.2
+nltk==3.9.1
+matplotlib==3.10.3
 
 # Hugging Face ecosystem
-transformers
-datasets
-huggingface_hub
-evaluate
-accelerate
-peft
-bitsandbytes
-trl
-unsloth
+transformers==4.51.3
+datasets==3.6.0
+huggingface_hub==0.31.2
+evaluate==0.4.3
+accelerate==1.6.0
+peft==0.15.2
+bitsandbytes==0.45.5
+trl==0.15.2
+unsloth==2025.5.2
 
 # Langchain and ecosystem
-langchain
-langchain_community
-langchain_ollama
-langgraph
-langchain-huggingface
+langchain==0.3.25
+langchain_community==0.3.24
+langchain_ollama==0.3.3
+langgraph==0.2.42
+langchain-huggingface==0.0.4
 
 # Environment and experiment tracking
-python-dotenv
-neptune
-neptune-optuna
+neptune==1.14.0
+neptune-optuna==1.4.1
+
 
 # Torch must be installed separately for specific CUDA version
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
