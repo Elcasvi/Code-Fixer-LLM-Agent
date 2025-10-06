@@ -9,12 +9,11 @@ The starting point is the `diff_benchmark.json` file, which can be found in the 
 ## Steps to Generate Curated Dataset
 
 Follow these steps to transform and prepare your dataset:
-
 1. **Download the Dataset**
    - Obtain the `diff_benchmark.json` file from Hugging Face.
    
 2. **Convert Data**
-   - Run the `convert_data.py` script:
+   - Run the `convert_data.py` script inside the dataset:
      ```bash
      python convert_data.py
      ```
