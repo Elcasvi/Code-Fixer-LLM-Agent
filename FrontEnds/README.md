@@ -1,109 +1,110 @@
 # CodeMedic
 
-CodeMedic es una solución integral que combina:
-- Una extensión de VS Code para gestionar issues de GitHub
-- Un servidor FastAPI que expone endpoints para procesar issues
-- Un agente basado en LangGraph que utiliza LLM para analizar y resolver problemas de código
+CodeMedic is an integrated solution that combines:
+- A VS Code extension to manage GitHub issues
+- A FastAPI server with endpoints for processing issues
+- An agent based on LangGraph using LLM to analyze and resolve code problems
 
-## Arquitectura
+## Architecture
 
-El sistema consta de tres componentes principales:
+The system consists of three main components:
 
-1. **Extensión de VS Code**: Interfaz de usuario que permite a los desarrolladores ver y seleccionar issues de GitHub para ser solucionados automáticamente.
-2. **Servidor FastAPI**: Backend que recibe los issues y los pasa al agente para su procesamiento.
-3. **Agente LangGraph**: Sistema basado en LLM que analiza los issues y propone soluciones.
+1. **VS Code Extension**: User interface allowing developers to view and select GitHub issues for automatic resolution.
+2. **FastAPI Server**: Backend that receives issues and forwards them to the agent for processing.
+3. **LangGraph Agent**: LLM-based system that analyzes issues and proposes solutions.
 
-## Requisitos Previos
+## Prerequisites
 
-- Node.js y npm (para la extensión)
-- Python 3.8+ (para el servidor y el agente)
-- Token de GitHub con permisos para acceder a los repositorios
-- VS Code (para ejecutar la extensión)
+- Node.js and npm (for the extension)
+- Python 3.8+ (for the server and the agent)
+- GitHub token with permissions to access repositories
+- VS Code (to run the extension)
 
-## Configuración
+## Setup
 
-1. **Configurar el token de GitHub**
+1. **Configure the GitHub Token**
    ```bash
-   # Crear archivo .env en la raíz del proyecto
-   echo "GITHUB_TOKEN=tu_token_de_github" > .env
+   # Create a .env file in the project root
+   echo "GITHUB_TOKEN=your_github_token" > .env
    ```
 
-2. **Instalar dependencias del servidor y agente**
+2. **Install Server and Agent Dependencies**
    ```bash
-   # Opcional pero recomendado: crear entorno virtual
+   # Optional but recommended: create virtual environment
    python -m venv venv
    source venv/bin/activate  # Unix/macOS
    # venv\Scripts\activate  # Windows
    
-   # Instalar dependencias
+   # Install dependencies
    pip install -r server/requirements.txt
    ```
 
-3. **Instalar dependencias de la extensión**
+3. **Install Extension Dependencies**
    ```bash
    cd extension
    npm install
    ```
 
-## Ejecución
+## Execution
 
-### 1. Iniciar el servidor FastAPI (API Backend)
+### 1. Start the FastAPI Server (Backend API)
 
 ```bash
-# Navegar al directorio del servidor
+# Navigate to the server directory
 cd server
 
-# Activar el entorno virtual si es necesario
-# source ../venv/bin/activate  # Descomenta si usas un entorno virtual
+# Activate virtual environment if necessary
+# source ../venv/bin/activate  # Uncomment if you're using a virtual environment
 
-# Iniciar el servidor FastAPI
+# Start the FastAPI server
 uvicorn main:app --reload
 ```
 
-Mantén esta terminal abierta para ver los logs del servidor y el procesamiento del agente.
+Keep this terminal open to view server logs and agent processing.
 
-### 2. Compilar y ejecutar la extensión de VS Code
+### 2. Compile and Run the VS Code Extension
 
-En una nueva terminal:
+In a new terminal:
 
 ```bash
-# Navegar al directorio de la extensión
+# Navigate to the extension directory
 cd extension
 
-# Instalar dependencias (si no lo has hecho antes)
+# Install dependencies (if not done before)
 npm install
 
-# Compilar la extensión
+# Compile the extension
 npm run compile
 
-# Iniciar VS Code con la extensión
+# Start VS Code with the extension
 code --extensionDevelopmentPath=$PWD ..
 ```
 
-### 3. Usar la extensión en VS Code
+### 3. Use the Extension in VS Code
 
-1. Una vez que VS Code se abra, verás el icono de CodeMedic en la barra de actividad (icono de insecto)
-2. Haz clic en el icono para abrir la vista de GitHub Issues
-3. Si es necesario, autentícate con GitHub haciendo clic en "Authenticate"
-4. Verás la lista de issues del repositorio actual
-5. Para resolver un issue:
-   - Opción 1: Haz clic en el icono de "Fix Issue with CodeMedic" (icono de probeta) junto al issue
-   - Opción 2: Haz clic en el issue para abrir el panel de detalles y luego haz clic en el botón "Fix this issue with CodeMedic"
+1. Once VS Code opens, you'll see the CodeMedic icon in the activity bar (insect icon)
+2. Click on the icon to open the GitHub Issues view
+3. If necessary, authenticate with GitHub by clicking "Authenticate"
+4. You will see a list of issues from the current repository
+5. To resolve an issue:
+   - Option 1: Click on the "Fix Issue with CodeMedic" icon (test tube icon) next to the issue
+   - Option 2: Click on the issue to open the details panel and then click the "Fix this issue with CodeMedic" button
 
-### 4. Ver los resultados
 
-- En la terminal donde ejecutaste el servidor (paso 1), verás los logs del agente analizando y resolviendo el issue
-- En VS Code, verás una notificación de progreso seguida de un mensaje de éxito cuando el issue sea procesado
+### 4. View the Results
 
-### 5. Probar el sistema con un script (opcional)
+- In the terminal where you started the server (step 1), see the agent's logs analyzing and resolving the issue
+- In VS Code, a progress notification followed by a success message will appear when the issue is processed
 
-Si prefieres probar el sistema sin VS Code:
+### 5. Test the System with a Script (Optional)
+
+If you prefer to test the system without using VS Code:
 
 ```bash
-# Asegúrate de estar en el directorio raíz del proyecto
-cd /ruta/al/proyecto/CodeMedic
+# Ensure you're in the project root directory
+cd /path/to/CodeMedic/project
 
-# Ejecutar el script de prueba
+# Run the test script
 python test_fix_code.py
 ```
 
@@ -111,54 +112,41 @@ python test_fix_code.py
 
 ```
 CodeMedic/
-├── agent/                     # Agente LangGraph
-│   ├── models/                # Modelos de datos
-│   ├── tools/                 # Herramientas del agente
-│   └── ollama_langgraph_agent.py  # Implementación principal del agente
-├── extension/                 # Extensión de VS Code
-│   ├── src/                   # Código fuente de la extensión
-│   ├── package.json           # Configuración de la extensión
-│   └── README.md              # Documentación de la extensión
-├── server/                    # Servidor FastAPI
-│   ├── app/                   # Aplicación FastAPI
-│   └── main.py                # Punto de entrada del servidor
-├── .env                       # Variables de entorno (token de GitHub)
-├── test_fix_code.py           # Script de prueba
-└── README.md                  # Este archivo
+├── agent/                     # LangGraph Agent
+│   ├── models/                # Data models
+│   ├── tools/                 # Agent tools
+│   └── ollama_langgraph_agent.py  # Main agent implementation
+├── extension/                 # VS Code Extension
+│   ├── src/                   # Source code of the extension
+│   ├── package.json           # Extension configuration
+│   └── README.md              # Extension documentation
+├── server/                    # FastAPI Server
+│   ├── app/                   # FastAPI application
+│   └── main.py                # Server entry point
+├── .env                       # Environment variables (GitHub token)
+├── test_fix_code.py           # Test script
+└── README.md                  # This file
 ```
 
-## Solución de Problemas
+## Troubleshooting
 
-### Error de importación en Python
-Si encuentras problemas con las importaciones, revisa las rutas en los archivos:
+### Python Import Error
+If you encounter import issues, check the paths in these files:
 - server/app/routes.py
 - agent/ollama_langgraph_agent.py
 - agent/tools/tools.py
 
-### Problemas de conexión con el servidor
-Asegúrate de que:
-- El servidor está ejecutándose en http://localhost:8000
-- No hay otro proceso utilizando el puerto 8000
-- La extensión está configurada para usar la URL correcta del servidor
+### Server Connection Issues
+Ensure that:
+- The server is running at  http://localhost:8000
+- No other process is using port 8000
+- The extension is configured with the correct server URL
 
-### Error de autenticación con GitHub
-Verifica que:
-- Tu token de GitHub es válido y tiene los permisos necesarios
-- El token está correctamente configurado en el archivo .env
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Para contribuir:
-1. Haz fork del repositorio
-2. Crea una rama para tu característica (`git checkout -b feature/amazing-feature`)
-3. Haz commit de tus cambios (`git commit -m 'Add some amazing feature'`)
-4. Push a la rama (`git push origin feature/amazing-feature`)
-5. Abre un Pull Request
+### GitHub Authentication Error
+Verify that:
+- Your GitHub token is valid and has necessary permissions
+- The token is correctly set in the .env file
 
 ## Licencia
 
 Este proyecto está licenciado bajo [MIT License](LICENSE).
-
-## Contacto
-
-Para más información o soporte, abre un issue en este repositorio. 
